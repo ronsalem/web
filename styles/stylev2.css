@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #282828; */
+}
+
+
+
+li, a, button {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    /* background-color: #282828; */
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: teal;
+}
+
+button {
+    padding:  9px 25px;
+    background-color: teal;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+div.title {
+    color: brown;
+    position: relative;
+    width: 100px;
+
+}
+
+/* /* .about-1 {
+    position: static;
+    top: 10px;
+    right: 0px;
+    left: 100px;
+    width: 200px;
+    height: 100px;
+    text-align: center; } */
+    
+
+.img {
+    position: absolute;
+  /* top: 0px; */
+  right: 0;
+  width: 300px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* background-image: url('/images/20210119_124rrrrrrrrrrrrrrrr821.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; */
+   background-image: linear-gradient(126deg, rgba(94, 94, 94, 0.02) 0%, rgba(94, 94, 94, 0.02) 12%,rgba(20, 20, 20, 0.02) 12%, rgba(20, 20, 20, 0.02) 67%,rgba(98, 98, 98, 0.02) 67%, rgba(98, 98, 98, 0.02) 76%,rgba(247, 247, 247, 0.02) 76%, rgba(247, 247, 247, 0.02) 91%,rgba(44, 44, 44, 0.02) 91%, rgba(44, 44, 44, 0.02) 100%),linear-gradient(133deg, rgba(251, 251, 251, 0.02) 0%, rgba(251, 251, 251, 0.02) 33%,rgba(132, 132, 132, 0.02) 33%, rgba(132, 132, 132, 0.02) 43%,rgba(248, 248, 248, 0.02) 43%, rgba(248, 248, 248, 0.02) 58%,rgba(19, 19, 19, 0.02) 58%, rgba(19, 19, 19, 0.02) 89%,rgba(43, 43, 43, 0.02) 89%, rgba(43, 43, 43, 0.02) 100%),linear-gradient(56deg, rgba(4, 4, 4, 0.02) 0%, rgba(4, 4, 4, 0.02) 29%,rgba(242, 242, 242, 0.02) 29%, rgba(242, 242, 242, 0.02) 33%,rgba(38, 38, 38, 0.02) 33%, rgba(38, 38, 38, 0.02) 57%,rgba(138, 138, 138, 0.02) 57%, rgba(138, 138, 138, 0.02) 99%,rgba(210, 210, 210, 0.02) 99%, rgba(210, 210, 210, 0.02) 100%),linear-gradient(114deg, rgba(122, 122, 122, 0.02) 0%, rgba(122, 122, 122, 0.02) 45%,rgba(0, 0, 0, 0.02) 45%, rgba(0, 0, 0, 0.02) 58%,rgba(66, 66, 66, 0.02) 58%, rgba(66, 66, 66, 0.02) 68%,rgba(103, 103, 103, 0.02) 68%, rgba(103, 103, 103, 0.02) 84%,rgba(130, 130, 130, 0.02) 84%, rgba(130, 130, 130, 0.02) 100%),linear-gradient(72deg, rgba(84, 84, 84, 0.02) 0%, rgba(84, 84, 84, 0.02) 1%,rgba(241, 241, 241, 0.02) 1%, rgba(241, 241, 241, 0.02) 12%,rgba(90, 90, 90, 0.02) 12%, rgba(90, 90, 90, 0.02) 15%,rgba(92, 92, 92, 0.02) 15%, rgba(92, 92, 92, 0.02) 54%,rgba(134, 134, 134, 0.02) 54%, rgba(134, 134, 134, 0.02) 100%),linear-gradient(90deg, rgb(8, 8, 8),rgb(220, 220, 220));
+   background-size: cover;
+   background-position: center;
+   background-size: auto;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  /* *, *:before, *:after {
+    box-sizing: inherit;
+  }
+   */
+   /* box */
+  .column {
+    float: left;
+    width: 600px;
+    margin-bottom: 100px;
+    padding: 0 8px;
+    height: 140px;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 16mm;
+    border: white solid 2mm;
+    border-radius: 10mm;
+    width: m;
+    position: static;
+    text-align: center;
+}
+  
+
+  @keyframes left-to-right {
+
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  .title {
+    color: grey;
+  }
+  .air {
+      color: white;
+  }
+
+  .john {
+      position: absolute;
+      height: 300px;
+      bottom: 1000px;
+      width: 300px;
+      top: 100mm;
+      right: 30mm;
+      border: white solid 1mm;
+      border-radius: 10mm;
+      background-color: white;
+  }
+
+  .john2 {
+    position: absolute;
+    height: 300px;
+    bottom: 10px;
+    width: 300px;
+    top: 50mm;
+    right: 140mm;
+    border: white solid 1mm;
+    border-radius: 10mm;
+    background-color: white;
+  }
+
+  .john4 {
+    position: absolute;
+    height: 300px;
+    bottom: 10px;
+    width: 300px;
+    top: 180mm;
+    right: 140mm;
+    border: white solid 1mm;
+    border-radius: 10mm;
+    background-color: white;
+  }
+
+
+
+
+  /* .hey{
+      color: tomato;
+  } */
+
+/*     
+  #column {
+    float: left;
+    width: 600px;
+    margin-bottom: 100px;
+    padding: 0 8px;
+    height: 100px;
+  }
+  
+  #card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    border: white solid 1mm;
+    border-radius: 10mm;
+    position: fixed;
+
+  }
+
+  
+  #container {
+    padding: 0 16px;
+  }
+
+  */
+.move-info{
+    margin-bottom: 10px;
+    top: 200px;
+    position: absolute;
+    border: white solid 1mm;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 68px;
+    border-radius: 10mm;
+    text-align: center;
+
+    /* float: left; */
+    width: 700px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    height: 750px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 8mm;
+
+} 
+
+.tt {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.text{
+  margin-bottom: 10px;
+  top: 450px;
+  position: absolute;
+  border: white solid 1mm;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 60px;
+  border-radius: 10mm;
+  text-align: center;
+  left: 1110px;
+  width: 250px;
+  font-family: 'Antic', sans-serif;
+  font-size: 5mm;
+}
+
+.text1{
+  margin-bottom: 10px;
+  top: 940px;
+  position: absolute;
+  border: white solid 1mm;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 60px;
+  border-radius: 10mm;
+  text-align: center;
+  left: 1110px;
+  width: 250px;
+  font-family: 'Antic', sans-serif;
+  font-size: 5mm;
+
+}
+
+.text2{
+  margin-bottom: 10px;
+  top: 640px;
+  position: absolute;
+  border: white solid 1mm;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 60px;
+  border-radius: 10mm;
+  text-align: center;
+  width: 250px;
+  left: 1540px;
+  font-family: 'Antic', sans-serif;
+  font-size: 5mm;
+
+}
+
+.text2:hover{
+  color: rgb(158, 231, 89);
+}
+
+.text1:hover{
+  color: rgb(205, 96, 219);
+}
+
+.text:hover{
+  color: rgb(80, 142, 223);
+}
+#rrr {
+
+  top: 1150px;
+  position: absolute;
+  border: white solid ;
+  height: 40px;
+  background-color: white;
+  text-align: left;
+  width: 100%;
+
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media all and (max-width: 600px) {
+  
+
+
+
+
+
+
+
+
+
+  .column {
+    float: left;
+    width: 400px;
+    margin-bottom: 100px;
+    padding: 0 8px;
+    height: 150px;
+
+  }
+
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 11mm;
+    border: white solid 1mm;
+    border-radius: 10mm;
+    width: m;
+    position: static;
+    text-align: center;
+    
+}
+
+  
+  .container {
+    padding: 0 16px;
+    
+  }
+
+  .tt{
+    font-size: 3mm;
+  }
+
+  .move-info{
+    margin-bottom: 10px;
+    top: 150px;
+    position: absolute;
+    border: white solid 1mm;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 68px;
+    border-radius: 10mm;
+    text-align: center;
+    left: -10px;
+
+    /* float: left; */
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    height: 420px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 5mm;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .UH{
+    width: 100%;
+    display: block;
+  }
+
+  .john{
+    width: 30%;
+    height: 30%;
+  }
+
+  
+}
