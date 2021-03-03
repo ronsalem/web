@@ -1,0 +1,164 @@
+.text2 {
+    margin-bottom: 10px;
+    top: 640px;
+    position: absolute;
+    border: white solid 1mm;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 60px;
+    border-radius: 10mm;
+    text-align: center;
+    width: 250px;
+    left: 1540px;
+    font-family: "Antic", sans-serif;
+    font-size: 5mm;
+  }
+  
+  .text2:hover {
+    color: rgb(158, 231, 89);
+  }
+  
+  .text1:hover {
+    color: rgb(205, 96, 219);
+  }
+  
+  .text:hover {
+    color: rgb(80, 142, 223);
+  }
+  #rrr {
+    top: 1150px;
+    position: absolute;
+    border: white solid;
+    height: 40px;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+  
+    .column {
+      float: left;
+      width: 100%;
+      margin-bottom: 100px;
+      padding: 0 8px;
+      height: auto;
+      left: -50px;
+    }
+  
+    .card {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 11mm;
+      border: white solid 1mm;
+      border-radius: 10mm;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      left: -30px;
+    }
+  
+    .container {
+      padding: 0 16px;
+    }
+  
+    .tt {
+      font-size: 3mm;
+    }
+  
+    .move-info {
+      margin-bottom: 10px;
+      top: 150px;
+      position: absolute;
+      border: white solid 1mm;
+      padding: 16px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 68px;
+      border-radius: 10mm;
+      text-align: center;
+      left: -50px;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 0 8px;
+      height: auto;
+      font-family: "Montserrat Alternates", sans-serif;
+      font-size: 4mm;
+      font-weight: 100%; 
+  
+    }
+  
+    /* img info */
+    .text {
+      left: 40px;
+      top: 1220px;
+      text-align: center;
+      height: auto;
+      width: 50%;
+  
+    }
+  
+    .text1 {
+      left: 50px;
+      top: 1775px;
+      text-align: center;
+      height: auto;
+      width: 50%;
+    }
+  
+    .text2 {
+      left: 50px;
+      top: 795px;
+      text-align: center;
+      height: auto;
+      width: 50%;
+    }
+  
+    .UH {
+      width: 100%;
+      display: block;
+    }
+  
+    /* imgs */
+    .john {
+      width: 50%;
+      height: auto;
+      position: relative;
+      left: 100px;
+      top: 1290px;
+    }
+  
+    .john2 {
+      left: 100px;
+      width: 50%;
+      height: auto;
+      top: 150px;
+      position: relative;
+    }
+  
+    .john4 {
+      left: 100px;
+      width: 50%;
+      height: auto;
+      top: 400px;
+      position: relative;
+    }
+  
+    #rrr {
+      top: 2050px;
+    }
+  
+    /* .logo{
+      right: -100PX;
+    } */
+  }
+  
