@@ -7,8 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "nodemon app.js",
-    "build": "nodemon index"
+    "build": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
