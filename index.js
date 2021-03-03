@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 //     res.sendFile('/about.html', { root: __dirname });
 // });
 
-router.get('/about', (req, res) => {
+app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname + '/html files/index.html'));
 });
 
