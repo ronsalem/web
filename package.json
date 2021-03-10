@@ -7,12 +7,13 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "nodemon index.js"
+    "zip": "npm-build-zip"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "npm-build-zip": "^1.0.3"
   }
 }

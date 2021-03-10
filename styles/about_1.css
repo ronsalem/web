@@ -160,8 +160,11 @@ body{
       top: 2050px;
     }
   
-    /* .logo{
-      right: -100PX;
-    } */
+    .logo{
+      width: 30%;
+      height: auto;
+    }
+
+
   }
   
