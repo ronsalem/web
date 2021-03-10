@@ -21,5 +21,3 @@ app.get('/shop', (req, res) => {
 app.use(express.static(path.join(__dirname, 'public')));
 app.listen(port, () => console.log(`listening on port ${port}!`));
 
-const os = require('os')
-const uptime =  console.log(os.uptime());
