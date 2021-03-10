@@ -8,7 +8,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/html/home.html'));
+    res.sendFile(path.join(__dirname + '/home.html'));
 });
 
 app.get('/projects', (req, res) => {
